@@ -3,6 +3,11 @@ import { Navbar, NavbarBrand, NavItem,Nav, Toast, Collapse, NavbarToggler } from
 import {NavLink} from "react-router-dom";
 
 class Header extends Component {
+
+    constructor(props){
+        super(props);
+    }
+
     render(){
         return(
             <React.Fragment>
